@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>Automated Tip Calculator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <main>
+      <h1 class="heading">Automated Tip Calculator</h1>
+      <div class="tip-main">
+        <form class="tip-form">
+          <div class="form-group"> <i class="fas fa-dollar-sign"></i><input type="number" class="form-control" id="billtotal" placeholder="Total Bill">
+          </div>
+
+          <div class="form-group">
+            <label for="">Tip:</label>
+            <input type="range" class="form-control" id="tipinput" value="0">
+            <span class="input-group-addon" id="tipoutput"></span>
+          </div>
+        </form>
+        <hr>
+        <div class="result" id="result">
+          <h3>Results</h3>
+          <div class="form-group">
+            <span class="input-group-addon">Tip amount</span>
+            <input type="number" class="form-control" id="tipamount" disabled>
+          </div>
+          <div class="form-group">
+            <span class="input-group-addon">Total Bill with Tip</span>
+            <input type="number" class="form-control" id="totalbill" disabled>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+
+</html>
