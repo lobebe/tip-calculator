@@ -1,0 +1,48 @@
+main {
+  font-family: 'PT Sans', sans-serif;
+  max-width: 400px;
+  width: 100%;
+  margin: auto;
+  margin-top: 50px;
+  background: #ed7966;
+  padding: 50px;
+}
+#result {
+    display: none;
+}
+
+h1.heading {
+  color: #141850;
+  font-weight: bold;
+}
+h3 {
+font-size: 1.5em;
+  color: #141850;
+  font-weight: bold;
+}
+
+i.fas {
+  margin-right: 5px;
+  color: #141850;
+
+}
+
+.form-group {
+  padding: 10px;
+}
+
+input {
+  padding: 5px 10px;
+  width: 60%;
+  font-size: 1.3em;
+}
+
+input#tipinput {
+  vertical-align: -webkit-baseline-middle;
+}
+
+label,
+span.input-group-addon,
+input {
+  color: #141850;
+}
